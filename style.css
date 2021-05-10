@@ -1,0 +1,232 @@
+/* Importing font family */
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*styling body*/
+
+body{
+    font-family: 'Girassol', cursive;
+    padding: 0 116px;
+    }
+    
+    .flex{
+    display: flex;
+    }
+    
+    .space-evenly{
+    justify-content: space-evenly;
+    }
+    
+    .space-between{
+    justify-content: space-between;
+    }
+    
+    .align-center{
+    align-items: center;
+    }
+    
+    .direction-column{
+    flex-direction: column;
+    }
+    
+    .wrap{
+    flex-wrap: wrap;
+    }
+    
+
+/* removing preset styling */
+
+/* Styling body */
+
+/* Styling navbar */
+nav{
+    height: 180px;
+    width: 70%;
+    }
+    
+    nav>a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    }
+    
+    nav>a:hover{
+    color: #A3CB38;
+    font-weight:bold;
+    }
+
+/* Styling Header section */
+.bg-green{
+    position: absolute;
+    width: 446px;
+    height: 629px;
+    left: 948px;
+    top: 0px;
+    right: 492px;
+    background: #a3cb38;
+    border-radius: 0px 0px 100px 0px ;
+    z-index: -1;
+    }
+    
+    h2{
+    font-size: 54px;
+    }
+    
+    .button{
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: #a3cb38;
+    margin-top: 32px;
+    }
+    
+    .button p{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    }
+
+/* Styling main hustle */
+.my-main-hustle{
+    position: absolute;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    min-height: 550px;
+    width: 636px;
+    z-index: -1;
+    left: 0;
+    }
+    
+    .my-main-hustle-text{
+    margin-top: 1%;
+    max-width: 555px;
+    margin-left: 200px;
+    }
+    
+    .my-main-hustle-container>h1{
+    max-width: 653px;
+    }
+    
+    h3{
+    color: #a3cb38;
+    font-size: 30px;
+    font-weight: bold;
+    }
+    
+    h4{
+    font-size: 18px;
+    }
+    
+    h1{
+    font-size: 70px;
+    line-height: 100px;
+    }
+
+    .my-work{
+        min-height: 1045px;
+        flex-direction: column;
+        }
+        
+        .my-work>h2{
+        text-align: center;
+        }
+        
+        .my-work>p{
+        max-width: 700px;
+        text-align: center;
+        }
+        
+        .my-work-container{
+        width: 100vw;
+        }
+        
+        .my-work-card{
+        align-items: flex-start;
+        max-width: 224px;
+        max-height: 323px;
+        }
+        
+        h5{
+        font-size: 14px;
+        }
+        
+        .my-work-card>h3{
+        font-size: 16px;
+        }
+        
+        .card-green{
+        position: relative;
+        top: 40px;
+        left: 10;
+        height: 45px;
+        width: 30px;
+        background-color: #a3cb38;
+        z-index: 1;
+        }
+        
+        hr{
+        height: 4px;
+        width: 30px;
+        background-color: #a3cb38;
+        }
+
+        footer {
+            justify-content: flex-end;
+            align-items: flex-end;
+            height: 273px;
+            }
+            
+            footer p {
+            text-align: right;
+            padding-bottom: 64px;
+            }
+            
+            .contact-container {
+            position: absolute;
+            left: 0;
+            height: 273px;
+            max-width: 596px;
+            background-color: #A3CB38;
+            }
+            
+            .contact-container>h2,
+            .contact-container>a {
+            padding-left: 116px;
+            padding-top: 60px;
+            color: white;
+            margin-right: 282px;
+            }
+            
+            .social-media-container {
+            width: 103px;
+            height: 20px;
+            margin-top: 10px;
+            margin-left: 116px;
+            }
+            
+            .social-media-container>img {
+            width: 20px;
+            }
+
+            
+
+
+     
+    
+    
+/* Styling my work */
+
+/* Proud section */
+
+/* My side hustle section */
+
+/* Styling footer section */
+
+/* Mobile friendly */
